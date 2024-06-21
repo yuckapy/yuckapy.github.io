@@ -1,0 +1,271 @@
+@import url(https://db.onlinewebfonts.com/c/251039e6849ad977a8bfc40b564dce89?family=Didot);
+@import url(https://db.onlinewebfonts.com/c/978e3845b045b2e6a058988930c64d27?family=Cochin);
+@font-face {
+    font-family: "SweiB2LegCJKtc-Regular";
+    src: url(https://cdn.jsdelivr.net/gh/max32002/swei-meatball@1.0/WebFont/CJK%20TC/SweiMeatballCJKtc-Regular.woff2) format("woff2")
+    , url(https://cdn.jsdelivr.net/gh/max32002/swei-meatball@1.0/WebFont/CJK%20TC/SweiMeatballCJKtc-Regular.woff) format("woff");
+  }
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color:#0D0D0D;
+    font-family: "Didot","Cochin","SweiB2LegCJKtc-Regular";
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    height: 250px;
+    background-image: linear-gradient(to bottom, #d50000 20%, rgba(100, 0, 0, 0) );
+    opacity: 0.5;
+}
+
+.black01{
+    width: 100%;
+    height: 300px;
+}
+
+.black02{
+    width: 100%;
+    height: 1100px;
+}
+
+.black03{
+    width: 100%;
+    height: 100px;
+}
+
+.mirror{
+    width: 100%;
+    height: 650px;
+    background-image: url(image/Group\ 35.png);
+    background-size: cover;
+    background-position: center center;
+    display: block;
+    margin: auto;
+}
+
+h2{
+    font-size:20pt;
+    font-weight: bold;
+    color: #E22222;
+    animation: fade 7s ;
+}
+
+p1-2{
+    font-size: 10pt;
+    color: #ffffff;
+    font-weight: 600;
+    text-shadow: 2px 2px 5px rgba(83, 5, 5, 0.493);
+    display: flex;
+    padding: 30px 0px 0px 180px;
+}
+
+.left h2{
+    display: flex;
+    margin: 0;
+    padding: 25px 0px 0px 180px;
+    transition:0.5s;
+}
+
+.left a {
+    text-decoration:none;
+}
+
+.left a :hover {
+    font-size: xx-large;
+}
+
+.logo2{
+    display: flex;
+    width: 120px;
+    height: 125px;
+    float: left;
+}
+
+h1-2{
+    font-size: xxx-large;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 100px 0px 0px 0px;
+    animation: fade 7s ;
+}
+
+.appleknife{
+    width: 100%;
+    height: 360px;
+    background-size: cover;
+    display: block;
+    margin: auto;
+}
+
+h1-1{
+    font-family: "Cochin";
+    font-weight: 400;
+    font-style: italic;
+    font-size: 50pt;
+    color: #780000;
+    display: flex;
+    padding: 0 0 0 100px;
+    margin: 0;
+    animation: fade 7s ;
+}
+
+h1-1-1{
+    font-family: "Cochin";
+    font-weight: 400;
+    font-style: italic;
+    font-size: 50pt;
+    color: #780000;
+    display: flex;
+    padding: 0 0 0 450px;
+    margin: 0;
+    animation: fade 7s ;
+}
+
+.appleknife-right {
+    position: absolute;
+    width: 1051px;
+    height: 1701px;
+    right: 0px;
+    top: 1200px;
+    z-index: -2;
+}
+
+.appleknife-left {
+    position: absolute;
+    width: 941px;
+    height: 917px;
+    top: 2000px;
+    float: left;
+    z-index: -1;
+}
+
+h2-2{
+    font-size:20pt;
+    font-weight: bold;
+    color: #E22222;
+    padding: 175px;
+}
+
+.content{
+    width: 1200px;
+    font-family: "SweiB2LegCJKtc-Regular";
+    padding-left: 100px;
+}
+
+iframe{
+    top: 3500px;
+}
+
+p1-2{
+    font-size: 10pt;
+    color: #ffffff;
+    font-weight: 600;
+    text-shadow: 2px 2px 5px rgba(83, 5, 5, 0.493);
+    display: flex;
+    padding: 30px 0px 0px 180px;
+}
+
+.left h2{
+    display: flex;
+    margin: 0;
+    padding: 25px 0px 0px 180px;
+    transition:0.5s;
+}
+
+.left a {
+    text-decoration:none;
+}
+
+.left a :hover {
+    font-size: xx-large;
+}
+
+
+p1-3{
+    font-size: 15pt;
+    color: #ffffff;
+    font-weight: 600;
+    text-shadow: 2px 2px 5px rgba(83, 5, 5, 0.493);
+    display: flex;
+    padding: 10px;
+    margin: auto;
+    transition:0.5s;
+}
+
+.right a {
+    text-decoration:none;
+}
+
+.right a :hover {
+    font-size: xx-large;
+}
+
+p2{
+    width: 200px;
+    font-size: 10pt;
+    color: #ffffff;
+    font-weight: 600;
+    text-shadow: 2px 2px 5px rgba(83, 5, 5, 0.493);
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: auto;
+}
+
+.test {
+    width: 900px;
+    height: 100px;
+}
+
+.logo2{
+    display: flex;
+    width: 120px;
+    height: 125px;
+    float: left;
+}
+
+.left-test{
+
+    position: absolute;
+    float: right;
+}
+
+.left {
+    display: block;
+    width: 50%;
+    height: 125px;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+
+
+.right{
+    display: block;
+    width: 50%;
+    height: 125px;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    padding: 20px 0px 0px 150px;
+}
+
+.footer{
+    width: 100%;
+    height: 250px;
+    background-image: linear-gradient(to top, #d500007a 20%, rgba(100, 0, 0, 0) );
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 4900px;
+    z-index: -2;
+}
